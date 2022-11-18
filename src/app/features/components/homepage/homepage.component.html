@@ -1,0 +1,31 @@
+<div class="container">
+<div class="search">
+<mat-form-field class="form-filed field" appearance="fill">
+    <mat-label>Search by Book Name</mat-label>
+    <input type="text" matInput >
+  </mat-form-field>
+
+
+  <mat-form-field class="form-filed field" appearance="fill">
+    <mat-label>Filter By Category</mat-label>
+    <input  matInput >
+  </mat-form-field>
+</div>
+
+
+<div class="cards" *ngIf="books">  
+<div *ngFor="let book of pageSlice | filterBooks : filter" >
+        <app-book [book]="book"></app-book>
+    </div>
+</div>
+</div>
+<mat-paginator
+[length]="this.books.length"
+[pageSize]="3"
+[pageSizeOptions]="[3, 6]"
+aria-label="Select page"
+(page)="onPageChange($event)"
+>
+</mat-paginator>
+   
+

@@ -1,0 +1,132 @@
+{
+  "books": [
+    {
+      "Id": 1,
+      "ImageUrl": "../../../assets/images/MoneyPower.png",
+      "Title": "Money Power",
+      "Author": "Name Surname",
+      "Year": 1928,
+      "Categories": [
+        {
+          "Id": 1,
+          "name": "General"
+        },
+        {
+          "Id": 2,
+          "name": "History"
+        }
+      ],
+      "ISBN": "0123456789",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+    },
+    {
+      "Id": 2,
+      "ImageUrl": "../../../assets/images/MyFirstLove.png",
+      "Title": "My First Love",
+      "Author": "Name Surname",
+      "Year": 2000,
+      "Categories": [
+        {
+          "Id": 1,
+          "name": "General"
+        }
+      ],
+      "ISBN": "0123456789",
+      "Description": ""
+    },
+    {
+      "Id": 3,
+      "ImageUrl": "../../../assets/images/MyLittleLife.png",
+      "Title": "My Little Life",
+      "Author": "Name Surname",
+      "Year": 2005,
+      "Categories": [
+        {
+          "Id": 3,
+          "name": "Literary"
+        }
+      ],
+      "ISBN": "0123456789",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+    },
+    {
+      "Id": 4,
+      "ImageUrl": "../../../assets/images/thelosttrip.png",
+      "Title": "The Lost Trip",
+      "Author": "Name Surname",
+      "Year": 2008,
+      "Categories": [
+        {
+          "Id": 5,
+          "name": "Kids"
+        },
+        {
+          "Id": 2,
+          "name": "History"
+        }
+      ],
+      "ISBN": "0123456789",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+    },
+    {
+      "Id": 5,
+      "ImageUrl": "../../../assets/images/Dark.png",
+      "Title": "Dark",
+      "Author": "Name Surname",
+      "Year": 2018,
+      "Categories": [
+        {
+          "Id": 3,
+          "name": "Literary"
+        }
+      ],
+      "ISBN": "0123456789",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+    },
+    {
+      "Id": 6,
+      "ImageUrl": "../../../assets/images/FindMe.png",
+      "Title": "Find me",
+      "Author": "Name Surname",
+      "Year": 2021,
+      "Categories": [
+        {
+          "Id": 4,
+          "name": "Horror"
+        }
+      ],
+      "ISBN": "0123456789",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "General"
+    },
+    {
+      "id": 2,
+      "name": "History"
+    },
+    {
+      "id": 3,
+      "name": "Literary"
+    },
+    {
+      "id": 4,
+      "name": "Horror"
+    },
+    {
+      "id": 5,
+      "name": "Kids cxcx"
+    },
+    {
+      "id": 6,
+      "name": "mara"
+    },
+    {
+      "id": 7,
+      "name": "test3"
+    }
+  ]
+}
